@@ -147,7 +147,7 @@ class DentistProfile extends StatelessWidget {
                 children: [
                   Container(
                     height: 45,
-                    width: 80,
+                    width: 90,
                     decoration: BoxDecoration(
                       color: const Color(0xffE0F5F5),
                       borderRadius: BorderRadius.circular(30),
@@ -161,7 +161,7 @@ class DentistProfile extends StatelessWidget {
                   ),
                   Container(
                     height: 45,
-                    width: 80,
+                    width: 90,
                     decoration: BoxDecoration(
                       color: const Color(0xffC5F6E5),
                       borderRadius: BorderRadius.circular(30),
@@ -189,7 +189,7 @@ class DentistProfile extends StatelessWidget {
                   ),
                   Container(
                     height: 45,
-                    width: 80,
+                    width: 90,
                     decoration: BoxDecoration(
                       color: const Color(0xffE0F5F5),
                       borderRadius: BorderRadius.circular(30),
@@ -212,10 +212,10 @@ class DentistProfile extends StatelessWidget {
                   physics: const NeverScrollableScrollPhysics(),
                   children: [
                     Container(
-                      margin: const EdgeInsets.all(25),
-                      padding: const EdgeInsets.all(10),
-                      height: 50,
-                      width: 50,
+                      margin: const EdgeInsets.all(14),
+                      padding: const EdgeInsets.all(7),
+                      height: 70,
+                      width: 60,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.white,
@@ -229,28 +229,35 @@ class DentistProfile extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
-                        children: const [
-                          FaIcon(
+                        children: [
+                          const FaIcon(
                             FontAwesomeIcons.hospital,
                             color: primaryColor,
                             size: 70,
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 6,
                           ),
-                          Text(
+                          const Text(
                             'Hospital',
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.w700),
+                          ),
+                          Text(
+                            'Experience',
+                            style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color: Colors.grey.shade400),
                           )
                         ],
                       ),
                     ),
                     Container(
-                      margin: const EdgeInsets.all(25),
-                      padding: const EdgeInsets.all(10),
-                      height: 50,
-                      width: 50,
+                      margin: const EdgeInsets.all(14),
+                      padding: const EdgeInsets.all(7),
+                      height: 70,
+                      width: 60,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.white,
@@ -264,28 +271,35 @@ class DentistProfile extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
-                        children: const [
-                          FaIcon(
+                        children: [
+                          const FaIcon(
                             FontAwesomeIcons.hospital,
                             color: primaryColor,
                             size: 70,
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 6,
                           ),
-                          Text(
+                          const Text(
                             'Hospital',
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.w700),
+                          ),
+                          Text(
+                            'Experience',
+                            style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color: Colors.grey.shade400),
                           )
                         ],
                       ),
                     ),
                     Container(
-                      margin: const EdgeInsets.all(25),
-                      padding: const EdgeInsets.all(10),
-                      height: 50,
-                      width: 50,
+                      margin: const EdgeInsets.all(14),
+                      padding: const EdgeInsets.all(7),
+                      height: 70,
+                      width: 60,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.white,
@@ -299,28 +313,35 @@ class DentistProfile extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
-                        children: const [
-                          FaIcon(
+                        children: [
+                          const FaIcon(
                             FontAwesomeIcons.hospital,
                             color: primaryColor,
                             size: 70,
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 6,
                           ),
-                          Text(
+                          const Text(
                             'Hospital',
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.w700),
+                          ),
+                          Text(
+                            'Experience',
+                            style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color: Colors.grey.shade400),
                           )
                         ],
                       ),
                     ),
                     Container(
-                      margin: const EdgeInsets.all(25),
-                      padding: const EdgeInsets.all(10),
-                      height: 50,
-                      width: 50,
+                      margin: const EdgeInsets.all(14),
+                      padding: const EdgeInsets.all(7),
+                      height: 70,
+                      width: 60,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.white,
@@ -334,19 +355,26 @@ class DentistProfile extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
-                        children: const [
-                          FaIcon(
+                        children: [
+                          const FaIcon(
                             FontAwesomeIcons.hospital,
                             color: primaryColor,
                             size: 70,
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 6,
                           ),
-                          Text(
+                          const Text(
                             'Hospital',
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.w700),
+                          ),
+                          Text(
+                            'Experience',
+                            style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color: Colors.grey.shade400),
                           )
                         ],
                       ),
